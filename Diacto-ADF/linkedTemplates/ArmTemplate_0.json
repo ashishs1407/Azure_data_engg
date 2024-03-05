@@ -92,7 +92,8 @@
 				"type": "Json",
 				"typeProperties": {
 					"location": {
-						"type": "AzureBlobFSLocation"
+						"type": "AzureBlobFSLocation",
+						"fileSystem": "housingdata"
 					}
 				},
 				"schema": {}
